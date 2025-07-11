@@ -56,11 +56,12 @@ const UserCreatePage = ({ onAddUser, onClose }) => {
                 form.append(key, value);
             });
             if (selectedFile) {
-                form.append('file', selectedFile); // 👈 field name must match backend
+                form.append('file', selectedFile);
             }
 
-            const res = await createUserApi(form); // 👈 your API call
+            const res = await createUserApi(form);
             if (onAddUser) onAddUser(res.data);
+
             if (onClose) onClose();
 
             // Reset form

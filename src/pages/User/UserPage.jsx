@@ -323,7 +323,7 @@ const UserPage = () => {
                     />
                 ) : (
                     <UserCreatePage
-                        onAddProduct={handleAddUser}
+                        onAddUser={handleAddUser}
                         onClose={() => setIsOpen(false)}
                     />
                 )}
