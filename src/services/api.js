@@ -8,6 +8,8 @@ const api = axios.create({
 export const attachTokenToApi = (token) => {
     if (token) {
         api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+        // console.log(token);
+
     } else {
         delete api.defaults.headers.common['Authorization'];
     }

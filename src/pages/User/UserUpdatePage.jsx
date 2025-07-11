@@ -180,7 +180,7 @@ const UserUpdatePage = ({ user, onUpdateProduct, onClose }) => {
             </div>
 
             <div className="grid grid-cols-2 items-center gap-4 mt-2">
-                <Box display="flex" alignItems="center" gap={2}>
+                <Box display="flex" alignItems="center" gap={7}>
                     <Box position="relative" display="inline-block">
                         <Avatar src={previewUrl} sx={{ width: 45, height: 45 }} />
                         <IconButton
@@ -188,7 +188,7 @@ const UserUpdatePage = ({ user, onUpdateProduct, onClose }) => {
                             sx={{
                                 position: 'absolute',
                                 bottom: 3,
-                                right: -10,
+                                right: -40,
                                 backgroundColor: '#fff',
                                 border: '1px solid #ccc',
                                 '&:hover': { backgroundColor: '#eee' },

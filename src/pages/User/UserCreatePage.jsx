@@ -188,7 +188,7 @@ const UserCreatePage = ({ onAddUser, onClose }) => {
             </div>
 
             <div className="grid grid-cols-2 items-center gap-4 mt-2">
-                <Box display="flex" alignItems="center" gap={2}>
+                <Box display="flex" alignItems="center" gap={7}>
                     <Box position="relative" display="inline-block">
                         <Avatar
                             alt="User Avatar"
@@ -200,7 +200,7 @@ const UserCreatePage = ({ onAddUser, onClose }) => {
                             sx={{
                                 position: 'absolute',
                                 bottom: 3,
-                                right: -10,
+                                right: -45,
                                 backgroundColor: '#fff',
                                 border: '1px solid #ccc',
                                 '&:hover': { backgroundColor: '#eee' },
