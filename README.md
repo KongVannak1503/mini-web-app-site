@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # ⚛️ Mini App – Frontend (React.js)
 
-This is the frontend for the **Mini App**, built with **React.js** and styled using **Material UI** and/or **Ant Design**. It connects to a Node.js/Express backend for authentication and CRUD operations.
+This is the frontend for the **Mini App**, built with **React.js** and styled using **Material UI**. It connects to a Node.js/Express backend for authentication and CRUD operations.
 
 ---
 
